@@ -68,7 +68,7 @@ public class JogadorService {
         Jogador jogador = buscarOuFalhar(id);
 
         // CN02 do RF-004: jogador com vínculo (treinos, comportamentos, desempenhos).
-        // ⚠ Quando você implementar TreinoRepository, ComportamentoRepository e
+        // Depois de implementar TreinoRepository, ComportamentoRepository e
         // DesempenhoRepository, descomente o bloco abaixo:
         //
         // boolean temVinculo = treinoRepository.existsByJogadorId(id)
